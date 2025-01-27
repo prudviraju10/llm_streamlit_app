@@ -6,7 +6,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 
 # llm = ChatGoogleGenerativeAI(model="gemini-pro")
-model = ChatGroq(model="llama-3.1-70b-versatile",
+model = ChatGroq(model="llama-3.3-70b-versatile",
                  api_key=st.secrets["GROQ_API_KEY"])
 
 prompt = ChatPromptTemplate.from_messages(
