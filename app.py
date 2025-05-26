@@ -1,7 +1,7 @@
 import sys
 import streamlit as st
-# __import__('pysqlite3')
-# sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 home_p = st.Page("pages/home.py", title="home")
 llm_on_documents_p = st.Page(
