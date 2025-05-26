@@ -1,2 +1,4 @@
 venv/
 .streamlit/
+venv_bkp
+requirements_temp.txt
